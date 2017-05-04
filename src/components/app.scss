@@ -1,0 +1,42 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	color: #fff;
+	background-color: #336699;
+}
+
+html,body,ul,li{
+	margin: 0;
+	padding: 0;
+}
+
+ul,li{
+	list-style:none;
+}
+
+img{
+	border: 0;
+}
+
+.next-img-demo{
+	ul{
+		padding: 20px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		li{
+			width: 49%;
+			position: relative;
+			&:nth-child(n+3){
+				margin-top: 5px;
+			}
+			img{
+				width: 100%;
+				height: 250px;
+			}
+		}
+	}
+}
