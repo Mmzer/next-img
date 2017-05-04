@@ -1,22 +1,8 @@
-# 微信微站脚手架 react 初始化模板
+# 图片数组顺序加载
 
-## 计划功能
+const imgs = ['url1', 'url2', 'url3', ...];
 
-- [x] 使用webpack2.0 
-- [x] 集成webpack chunk
-- [x] 集成eslint
-- [x] 集成hot-reload
-- [x] 集成css Autoprefixer前缀自动补全 
-- [x] 集成sass
-- [x] 集成css-modules
-- [x] 集成sprite自动生成和编译成样式
-- [x] 集成imagemin图片压缩
-- [x] 集成source-map
-- [x] 集成rem   
-- [x] 集成单元测试
-- [x] 集成数据mock
-- [x] 集成自动ftp部署到测试服务器
-
+按照图片数组顺序队列加载图片（注：加载完一张再加载下一张）
 
 ## 使用说明：
 
